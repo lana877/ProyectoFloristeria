@@ -1,0 +1,68 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 7, 2017, 7:44:24 PM
+    Author     : 00140231 Ana Leon
+*/
+
+#cabezera{
+    font-family: Gadugi; 
+    font-size: 100px;
+    text-align: center;
+    color: salmon
+   
+    
+}
+
+#cabezera span{
+    font-family: Gadugi; 
+    font-size: 60px;
+    text-align: center;
+    color: coral
+}
+
+#menu ul li{
+    list-style-type: none;
+    display: inline;
+    font-family: Gadugi;
+    font-size: 20px;
+    background: lightsalmon;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+#cuerpo{
+    background: bottom;
+    
+}
+
+#cuerpo img{
+    width: 1400px;
+    height: 400px;
+    display: block;
+    margin: auto;
+}
+
+#cuerpo p{
+    font-family: Gadugi; 
+    font-size: 35px;
+    text-align: center;
+}
+
+#pie{
+    font-family: Gadugi; 
+    font-size: 20px;
+    text-align: center;
+    background: lightsalmon;
+}
+
+#pie img{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+
