@@ -1,0 +1,60 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 14, 2017, 7:00:36 PM
+    Author     : 00140231-Ana Leon
+*/
+
+form{
+    /*Para centrar el formulario*/
+    margin: 0 auto;
+    width:900px;
+    background: salmon;
+    /*Pondremos un border*/
+    border: 2px solid #000;
+    border-radius: 10px;
+    margin-bottom: 2em;/*usando margen entre el pie*/
+}
+
+form div{/*Poner espacio entre elementos*/
+    margin-top: 1em; /*Usando medida relativa*/
+}
+
+label{/*para asegurar que los labels tengan el 
+      mismo ancho y su alineacion*/
+    display:inline-block;
+    width:300px;
+    text-align: right;
+    font-size: 18px;
+}
+
+input,textarea{/*Aplicando al tamano al text area
+    */
+    width:400px;
+    font: 1em sans-serif;
+}
+
+input:focus textarea:focus{
+  /*Aplicamos a traves de la pseudo-clase FOCUS, estilo diferente al elemento activo*/
+  border: 1px solid #000;
+  background: #F3F3F3;
+}
+
+textarea{
+    vertical-align: top;
+}
+
+button{
+    font-size: 18px;
+    margin-left:35.59em;
+}
+
+h1{
+    text-align: center;
+}
+
+
+

@@ -13,15 +13,13 @@ and open the template in the editor.
     font-size: 100px;
     text-align: center;
     color: salmon
-   
-    
 }
 
 #cabezera span{
     font-family: Gadugi; 
     font-size: 60px;
     text-align: center;
-    color: coral
+    color: coral;
 }
 
 #menu ul li{
@@ -32,12 +30,14 @@ and open the template in the editor.
     background: lightsalmon;
     padding: 10px;
     border-radius: 10px;
-    
+}
+
+#menu {
+    text-align: center;
 }
 
 #cuerpo{
     background: bottom;
-    
 }
 
 #cuerpo img{
@@ -66,3 +66,21 @@ and open the template in the editor.
     text-align: center;
 }
 
+a:hover{/*Contrapone los colores al pasar el mouse encima*/
+    background: salmon;
+    color:lightsalmon;
+}
+
+a:link a:visited{/*Estamos definiendo el mismo color y tamaño para los enlaces visitados*/
+    font-size: 20px;
+    background: lightsalmon;
+    color: salmon;
+    text-decoration: none;
+}
+
+#menu ul li:hover{
+    background: salmon;
+    border-radius: 10px;
+    padding: 10px;
+    color:lightsalmon;
+}
